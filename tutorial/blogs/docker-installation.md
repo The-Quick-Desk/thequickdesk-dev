@@ -1,6 +1,7 @@
-# Docker and Docker Compose Installation Guide for Linux
+# Docker, Git and Docker Compose Installation Guide for Linux
 
 This guide helps you install Docker, the leading containerization tool, and Docker Compose, its companion for managing multi-container applications, on Ubuntu and other Linux distributions, including Amazon Linux 2023. 
+Additionally Git for the VCS.
 
 ### Prerequisites
 
@@ -53,7 +54,7 @@ sudo apt-get update
 **For Ubuntu:**
 
 ```
-sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin git
 ```
 
 **For Amazon Linux 2023:**
@@ -61,7 +62,7 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin 
 1. Install Docker:
 
 ```
-sudo dnf install -y docker
+sudo dnf install -y docker git
 ```
 
 2. Install Docker Compose:
